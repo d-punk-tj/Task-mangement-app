@@ -1,0 +1,8 @@
+<mat-card class="task-form">
+    <h2>Add Task</h2>
+    <mat-form-field>
+      <input matInput [(ngModel)]="newTask" placeholder="Enter task title">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="addTask()">Add Task</button>
+  </mat-card>
+  
